@@ -22,8 +22,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.6")
     implementation("org.webjars:jquery:3.4.1")
-    testImplementation("org.springframework.boot:spring-boot-starter-test")
-    {
+    testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
     }
 }
