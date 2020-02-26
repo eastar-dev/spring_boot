@@ -7,5 +7,6 @@ import javax.persistence.Id
 @Entity
 data class Account(@Id @GeneratedValue var id: Long = 0,
                    var username: String,
-                   var password: String
+                   var password: String,
+                   var email : String
 )
